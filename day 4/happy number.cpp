@@ -1,6 +1,6 @@
 class Solution {
 public:
-    unordered_set<int> seenSum;
+    unordered_set<int> seenSum; //
     bool isHappy(int n) {
         if(n==1){
             return true;
